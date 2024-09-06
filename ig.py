@@ -62,24 +62,24 @@ def ig_post_carousel(user_id, caption, json_data, access_token):
 
 # Example usage
 if __name__ == "__main__":
-    user_id = "17841460445243601"
+    user_id = ""
     caption = "json test"
     json_data = {
       "data": [
         {
-          "url": "https://dl5hm3xr9o0pk.cloudfront.net/instagram/recomm.png",
+          "url": "",
           "type": "image"
         },
         {
-          "url": "https://dl5hm3xr9o0pk.cloudfront.net/instagram/playstation.png",
+          "url": "",
           "type": "image"
         },
         {
-          "url": "https://dl5hm3xr9o0pk.cloudfront.net/instagram/mastercard.jpg",
+          "url": "",
           "type": "image"
         },
         {
-          "url": "https://dl5hm3xr9o0pk.cloudfront.net/instagram/playstation.png",
+          "url": "",
           "type": "image"
         }
       ]
