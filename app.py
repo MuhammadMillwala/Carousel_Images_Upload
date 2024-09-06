@@ -5,8 +5,8 @@ import json
 app = Flask(__name__)
 
 # Replace with placeholder values (get from Facebook Developer Portal)
-FACEBOOK_PAGE_ID = '223357267519403'
-ACCESS_TOKEN = 'EAADIrwS87IYBO1ixfwg86CxcFTZC0C6xI03BYSoXXcwSBTUa6dRYn3g29m9VnNDRQD4kzavVWoi8w2dO2AkBqZCZA7YORjRtvX5VCcWFKSreCzoZB0j3KygnOyNrThH0vJYOY8FxIPbNt9KNKZBWNOOtuJjI5WnXFBoczhq0GIvrhCkvwPqGgXnf3XZB70AlsZD'
+FACEBOOK_PAGE_ID = ''
+ACCESS_TOKEN = ''
 
 @app.route('/')
 def index():
