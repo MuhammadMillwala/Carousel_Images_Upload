@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wallpaper Carousel Poster</title>
+</head>
+<body>
+    <h1>Post a Wallpaper Carousel to Facebook</h1>
+    <form action="/post" method="post">
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" rows="5" cols="30"></textarea><br><br>
+        <label for="link">Link (Optional):</label><br>
+        <input type="text" name="link" id="link"><br><br>
+        <label for="child_attachments">Child Attachments (JSON format):</label><br>
+        <textarea name="child_attachments" id="child_attachments" rows="10" cols="30"></textarea><br><br>
+        <input type="submit" value="Post">
+    </form>
+</body>
+</html>
